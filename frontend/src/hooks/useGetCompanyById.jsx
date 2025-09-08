@@ -38,7 +38,7 @@ const useGetCompanyById = (companyId) => {
     useEffect(() => {
         const fetchSingleCompany = async () => {
             try {
-                const res = await axios.get(`https://job-linker-xoes.onrender.com/api/v1/company/get/${companyId}`, { withCredentials: true });
+                const res = await axios.get(`https://nexusjob-716x.onrender.com/api/v1/company/get/${companyId}`, { withCredentials: true });
                 console.log(res.data.company);
                 if (res.data.success) {
                     dispatch(setSingleCompany(res.data.company));

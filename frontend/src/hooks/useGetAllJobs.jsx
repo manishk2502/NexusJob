@@ -62,7 +62,7 @@ const useGetAllJobs = () => {
     useEffect(() => {
         const fetchAllJobs = async () => {
             try {
-                const res = await axios.get(`https://job-linker-xoes.onrender.com/api/v1/job/get?keyword=${searchedQuery}`, { withCredentials: true });
+                const res = await axios.get(`https://nexusjob-716x.onrender.com/api/v1/job/get?keyword=${searchedQuery}`, { withCredentials: true });
                 if (res.data.success) {
                     dispatch(setAllJobs(res.data.jobs));
                 }
