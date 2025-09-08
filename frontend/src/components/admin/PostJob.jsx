@@ -236,7 +236,7 @@ const PostJob = () => {
 
         try {
             setLoading(true);
-            const res = await axios.post("https://job-linker-xoes.onrender.com/api/v1/job/post", input, {
+            const res = await axios.post("https://nexusjob-716x.onrender.com/api/v1/job/post", input, {
                 headers: {
                     'Content-Type': 'application/json'
                 },

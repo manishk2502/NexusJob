@@ -201,7 +201,7 @@ const CompanySetup = () => {
 
         try {
             setLoading(true);
-            const res = await axios.put(`https://job-linker-xoes.onrender.com/api/v1/company/update/${params.id}`, formData, {
+            const res = await axios.put(`https://nexusjob-716x.onrender.com/api/v1/company/update/${params.id}`, formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 },

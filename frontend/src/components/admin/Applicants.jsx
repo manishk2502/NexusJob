@@ -107,7 +107,7 @@ const Applicants = () => {
                 const token = localStorage.getItem('token');
                 
                 // Adjust the API endpoint if necessary
-                const res = await axios.get("https://job-linker-xoes.onrender.com/api/v1/application/applicants", {
+                const res = await axios.get("https://nexusjob-716x.onrender.com/api/v1/application/applicants", {
                     withCredentials: true,
                     headers: {
                         Authorization: `Bearer ${token}`

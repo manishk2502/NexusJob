@@ -104,7 +104,7 @@ const ApplicantsTable = () => {
         try {
             axios.defaults.withCredentials = true;
             // Use template literals with backticks for correct string interpolation
-            const res = await axios.post(`https://job-linker-xoes.onrender.com/api/v1/application/status/${id}/update`, { status });
+            const res = await axios.post(`https://nexusjob-716x.onrender.com/api/v1/application/status/${id}/update`, { status });
             console.log(res);
             if (res.data.success) {
                 toast.success(res.data.message);

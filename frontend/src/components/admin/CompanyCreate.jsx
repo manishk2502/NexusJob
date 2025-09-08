@@ -82,7 +82,7 @@ const CompanyCreate = () => {
         }
 
         try {
-            const res = await axios.post("https://job-linker-xoes.onrender.com/api/v1/company/register", { companyName }, {
+            const res = await axios.post("https://nexusjob-716x.onrender.com/api/v1/company/register", { companyName }, {
                 headers: {
                     'Content-Type': 'application/json'
                 },
